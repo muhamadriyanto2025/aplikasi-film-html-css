@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chill — Beranda</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="brand"><span class="brand-mark">C</span> Chill</div>
+
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#series">Series</a>
+          <a href="#film">Film</a>
+          <a href="#daftar-saya">Daftar Saya</a>
+        </nav>
+
+        <div class="profile-chip" aria-label="Profil pengguna">
+          <div class="avatar">A</div>
+          <span>Arin</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="hero" aria-label="Hero section">
+        <div class="hero-copy">
+          <p class="eyebrow">Film &amp; Seri</p>
+          <h1>Siap untuk nonton film favoritmu.</h1>
+          <p class="hero-subtitle">
+            Nikmati pengalaman menonton yang lebih seru dengan koleksi film, series, dan tayangan
+            baru yang selalu update tiap hari.
+          </p>
+
+          <div class="cta-row">
+            <a href="#film" class="btn btn-primary">Mulai</a>
+            <a href="#series" class="btn btn-secondary">Selengkapnya</a>
+          </div>
+
+          <div class="volume-box">
+            <span class="volume-icon">🔊</span>
+            <span>Siap untuk nonton film</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Preview film hero">
+          <div class="feature-poster"></div>
+          <div class="preview-card">
+            <div class="preview-meta">
+              <span class="tag">Action</span>
+              <span class="rating">★ 4.9</span>
+            </div>
+            <h3>Midnight Run</h3>
+            <p>2026 • 2h 18m</p>
+            <div class="progress-bar"><span></span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="daftar-saya">
+        <div class="section-header">
+          <h2>Melanjutkan nonton</h2>
+          <a href="#">Lihat semua</a>
+        </div>
+
+        <div class="media-grid">
+          <article class="media-card" style="--poster: url('https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=900&q=80');">
+            <div class="card-body">
+              <span class="card-chip">Crime</span>
+              <h3>Black Echo</h3>
+              <div class="meta-row">
+                <span>Episode 6</span>
+                <span class="star">★ 4.8</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="media-card" style="--poster: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80');">
+            <div class="card-body">
+              <span class="card-chip">Adventure</span>
+              <h3>Sky Hunter</h3>
+              <div class="meta-row">
+                <span>52%</span>
+                <span class="star">★ 4.7</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="media-card" style="--poster: url('https://images.unsplash.com/photo-1524989941526-cf5f721f9d3d?auto=format&fit=crop&w=900&q=80');">
+            <div class="card-body">
+              <span class="card-chip">Drama</span>
+              <h3>Night Bloom</h3>
+              <div class="meta-row">
+                <span>Episode 3</span>
+                <span class="star">★ 4.9</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="media-card" style="--poster: url('https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?auto=format&fit=crop&w=900&q=80');">
+            <div class="card-body">
+              <span class="card-chip">Sci-Fi</span>
+              <h3>Orbit 9</h3>
+              <div class="meta-row">
+                <span>45%</span>
+                <span class="star">★ 4.6</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="series">
+        <div class="section-header">
+          <h2>Series top rating</h2>
+          <a href="#">Lihat semua</a>
+        </div>
+
+        <div class="listing-grid">
+          <article class="listing-card">
+            <div class="thumb" style="background-image: url('https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?auto=format&fit=crop&w=700&q=80');"></div>
+            <div class="listing-copy">
+              <h3>Velvet City</h3>
+              <p>Drama yang membawa kisah kota, ambisi, dan perjuangan hidup yang mengguncang masa depan.</p>
+              <div class="rating">★ 4.9</div>
+            </div>
+          </article>
+
+          <article class="listing-card">
+            <div class="thumb" style="background-image: url('https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=700&q=80');"></div>
+            <div class="listing-copy">
+              <h3>Moonlight Echo</h3>
+              <p>Journey penuh misteri dan emosi dengan chemistry tak terduga antara para pemeran utama.</p>
+              <div class="rating">★ 4.8</div>
+            </div>
+          </article>
+
+          <article class="listing-card">
+            <div class="thumb" style="background-image: url('https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=700&q=80');"></div>
+            <div class="listing-copy">
+              <h3>After Dawn</h3>
+              <p>Serial penuh ketegangan dengan plot yang menarik dan ending yang tak bisa ditebak.</p>
+              <div class="rating">★ 4.7</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="film">
+        <div class="section-header">
+          <h2>Film trending</h2>
+          <a href="#">Lihat semua</a>
+        </div>
+
+        <div class="media-grid">
+          <article class="media-card" style="--poster: url('https://images.unsplash.com/photo-1513106580091-1d82408b8cd6?auto=format&fit=crop&w=900&q=80');">
+            <div class="card-body">
+              <span class="card-chip">Action</span>
+              <h3>Steel Horizon</h3>
+              <div class="meta-row">
+                <span>2h 11m</span>
+                <span class="star">★ 4.8</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="media-card" style="--poster: url('https://images.unsplash.com/photo-1521714161819-1558fb4c9c46?auto=format&fit=crop&w=900&q=80');">
+            <div class="card-body">
+              <span class="card-chip">Drama</span>
+              <h3>Blue Ember</h3>
+              <div class="meta-row">
+                <span>1h 49m</span>
+                <span class="star">★ 4.9</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="media-card" style="--poster: url('https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=900&q=80');">
+            <div class="card-body">
+              <span class="card-chip">Adventure</span>
+              <h3>Wild Echo</h3>
+              <div class="meta-row">
+                <span>2h 03m</span>
+                <span class="star">★ 4.7</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="media-card" style="--poster: url('https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=crop&w=900&q=80');">
+            <div class="card-body">
+              <span class="card-chip">Mystery</span>
+              <h3>Paper Moon</h3>
+              <div class="meta-row">
+                <span>1h 56m</span>
+                <span class="star">★ 4.8</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <h2>Rilis baru</h2>
+          <a href="#">Lihat semua</a>
+        </div>
+
+        <div class="listing-grid">
+          <article class="listing-card">
+            <div class="thumb" style="background-image: url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=700&q=80');"></div>
+            <div class="listing-copy">
+              <h3>Rebel Signal</h3>
+              <p>Film sci-fi terbaru dengan alur cepat dan visual epik yang cocok untuk malam menonton.</p>
+              <div class="rating">★ 4.8</div>
+            </div>
+          </article>
+
+          <article class="listing-card">
+            <div class="thumb" style="background-image: url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=700&q=80');"></div>
+            <div class="listing-copy">
+              <h3>Glass Horizon</h3>
+              <p>Series dengan estetik dan emosi yang kuat, menghadirkan konflik keluarga yang memikat.</p>
+              <div class="rating">★ 4.9</div>
+            </div>
+          </article>
+
+          <article class="listing-card">
+            <div class="thumb" style="background-image: url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=700&q=80');"></div>
+            <div class="listing-copy">
+              <h3>Starlit Run</h3>
+              <p>Perjalanan penuh aksi dan drama yang menghadirkan momen tak terlupakan dari awal sampai akhir.</p>
+              <div class="rating">★ 4.7</div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="brand"><span class="brand-mark">C</span> Chill</div>
+          <p>© 2026 Chill. Semua hak dilindungi.</p>
+        </div>
+
+        <div class="footer-links">
+          <div>
+            <h4>Genre Film</h4>
+            <a href="#">Action</a>
+            <a href="#">Drama</a>
+            <a href="#">Sci-Fi</a>
+          </div>
+
+          <div>
+            <h4>Bantuan</h4>
+            <a href="#">FAQ</a>
+            <a href="#">Kontak Kami</a>
+            <a href="#">Privasi</a>
+          </div>
+
+          <div>
+            <h4>Perusahaan</h4>
+            <a href="#">Syarat &amp; Ketentuan</a>
+            <a href="#">Kebijakan</a>
+            <a href="#">Karier</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
